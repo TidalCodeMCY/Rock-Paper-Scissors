@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock-Paper-Scissors</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="./index.js" defer></script>
 </head>
 
 <body>
@@ -13,10 +15,31 @@
         <p>Will you be the winner? Or shall you lose?</p>
     </header>
     <main>
-        <div class="container">
-
+        <h2>Begin the fight by choosing one of the three!</h2>
+        <p>Rules</p>
+        <ol>
+            <h2>Rules</h2>
+            <li>Rock Beats Scissors</li>
+            <li>Scissors Beats Paper</li>
+            <li>Paper Beats Rock</li>
+            <p>If you win 3 before the computer you win!</p>
+        </ol>
+        <div class="gamecontainer">
+            <span class="line"></span>
+            <div class="rpc-container">
+                <img class="rpc rock" src="./Images/rock.png" alt="Rock">
+                <img class="rpc paper" src="./Images/paper.png" alt="Paper">
+                <img class="rpc scissors" src="./Images/scissors.png" alt="Scissors">
+            </div>
+            <div class="scorecontainer">
+                <p class="scorecardcount">Score: 0</p>
+                <p class="comscorecard">ComputerScore: 0</p>
+            </div>
         </div>
     </main>
+    <footer>
+        <p class="madeby">Made by Mason Yates</p>
+    </footer>
 </body>
 
 </html>
